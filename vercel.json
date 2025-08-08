@@ -10,6 +10,10 @@
       "dest": "staticfiles/$1"
     },
     {
+      "src": "/media/(.*)",
+      "dest": "media/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "my_site/wsgi.py"
     }
