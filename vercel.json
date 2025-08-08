@@ -7,6 +7,10 @@
   ],
   "routes": [
     {
+      "src": "/files/(.*)",
+      "dest": "uploads/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "my_site/wsgi.py"
     }
